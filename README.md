@@ -1,5 +1,9 @@
 # Stylus2
 
+## 3.0.2 - 05/11/2023
+
+- Fix .npmignore chưa thêm stylus.base62.min.js.
+
 ## 3.0.1 - 05/11/2023
 
 - Thêm tập tin stylus.base62.min.js.
