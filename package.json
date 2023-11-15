@@ -1,8 +1,9 @@
 {
   "name": "stylus2",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "main": "stylus.min.js",
   "scripts": {
+    "min": "terser stylus.js -o stylus.min.js",
     "test": "node test.js"
   }
 }

@@ -1,8 +1,12 @@
 # Stylus2
 
+## 3.3.0 - 05/11/2023
+
+- Bỏ --compress code khi compress với terser, bị lỗi.
+
 ## 3.2.0 - 05/11/2023
 
-- Bỏ mangle code khi compress với terser, mangle bị lỗi.
+- Bỏ --mangle code khi compress với terser, bị lỗi.
 
 ## 3.1.0 - 05/11/2023
 

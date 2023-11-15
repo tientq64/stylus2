@@ -1,5 +1,5 @@
 const fs = require("fs");
-const stylus = require("./stylus.js");
+const stylus = require("./stylus.min.js");
 
 let text;
 
