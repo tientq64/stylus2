@@ -1,0 +1,8 @@
+{
+  "name": "stylus2",
+  "version": "3.0.0",
+  "main": "stylus.min.js",
+  "scripts": {
+    "test": "node test.js"
+  }
+}

@@ -1,0 +1,17 @@
+:root
+  --a: 0
+
+$b = .6
+
+body
+  text-shadow: rgba2(0, 0, 0, $b)
+p
+  text-shadow: rgba(0, 0, 0, var(--a))
+  color: sin2(30deg)
+  font-size: round2(1.6)
+  filter: contrast(var(--a))
+  padding: round(up, 4.6px)
+
+h1, h2:is(.aaa, .bbb)
+  & > .ccc
+    color: #f00

@@ -1,0 +1,18 @@
+:root {
+  --a: 0;
+}
+body {
+  text-shadow: rgba(0,0,0,0.6);
+}
+p {
+  text-shadow: rgba(0, 0, 0, var(--a));
+  color: round(0.5, 9);
+  font-size: 2;
+  filter: contrast(var(--a));
+  padding: round(up, 4.6px);
+}
+h1 > .ccc,
+h2:is(.aaa > .ccc,
+.bbb) > .ccc {
+  color: #f00;
+}

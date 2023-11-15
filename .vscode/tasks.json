@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "node test.js",
+      "presentation": {
+        "clear": true,
+        // "close": true,
+        // "reveal": "never",
+        // "revealProblems": "onProblem",
+        "showReuseMessage": false
+      }
+    }
+  ]
+}
