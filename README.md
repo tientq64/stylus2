@@ -1,5 +1,9 @@
 # Stylus2
 
+## 3.1.0 - 05/11/2023
+
+- Thêm lại đoạn code "String.prototype.trimRight" ở đầu file, xóa bỏ bị lỗi.
+
 ## 3.0.2 - 05/11/2023
 
 - Fix .npmignore chưa thêm stylus.base62.min.js.

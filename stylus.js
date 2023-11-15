@@ -7,6 +7,11 @@ if (Function.prototype.name === undefined && Object.defineProperty !== undefined
 		}
 	});
 }
+if (String.prototype.trimRight === undefined) {
+	String.prototype.trimRight = function () {
+		return String(this).replace(/\s+$/, "");
+	};
+}
 var stylus = function () {
 	function require(p) {
 		var path = require.resolve(p),

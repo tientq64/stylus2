@@ -16,3 +16,10 @@ h2:is(.aaa > .ccc,
 .bbb) > .ccc {
   color: #f00;
 }
+.disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+.disabled .disabled {
+  opacity: unset;
+}
