@@ -1,5 +1,9 @@
 # Stylus2
 
+## 3.0.1 - 05/11/2023
+
+- Thêm tập tin stylus.base62.min.js.
+
 ## 3.0.0 - 05/11/2023
 
 - Đổi tên các hàm built-in của Stylus sau thành tên mới với số 2 đằng sau, để tránh xung đột với hàm CSS: rgba, rgb, hsl, hsla, sin, cos, tan, abs, round.
